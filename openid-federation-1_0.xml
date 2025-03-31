@@ -1948,8 +1948,7 @@
                 <vspace/>
                 The third level contains one or more members, each representing
                 an operator that checks or modifies the metadata parameter, as
-                described in <xref target="metadata_policy_operators"/>. Only
-                operators that are allowed to be combined with one another MUST
+                described in <xref target="metadata_policy_operators"/>. Operaters which conflict with one another MUST NOT
                 be included, as described in the specification for each
                 operator.
               </t>
